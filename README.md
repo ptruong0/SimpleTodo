@@ -34,6 +34,10 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 Describe any challenges encountered while building the app.
 
+The video tutorials were sometimes hard to follow, as the instructor could have explained some parts, such as 
+Intents, Layout Inflater, and onActivityResult, more clearly. There are so many new object types that I could
+not fully comprehend all of them.
+
 ## License
 
     Copyright [yyyy] [name of copyright owner]
