@@ -5,41 +5,60 @@
     android:id="@+id/RelativeOnly"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFEFE"
     tools:context=".MainActivity">
 
 
     <Button
         android:id="@+id/btnAdd"
-        android:layout_width="77dp"
-        android:layout_height="wrap_content"
+        style="@android:style/Widget.Button"
+        android:layout_width="98dp"
+        android:layout_height="59dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="0dp"
         android:layout_marginBottom="0dp"
-        android:text="Add" />
+        android:background="@color/btnColor"
+        android:elevation="5dp"
+        android:ellipsize="middle"
+        android:fontFamily="sans-serif-condensed-light"
+        android:letterSpacing="0"
+        android:text="ADD"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#C4FFFFFF" />
 
     <EditText
         android:id="@+id/etItem"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="59dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="0dp"
         android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
         android:layout_toStartOf="@+id/btnAdd"
+        android:background="#E8E8E8"
         android:ems="10"
-        android:hint="Add an item here!" />
+        android:fontFamily="sans-serif-condensed-light"
+        android:hint="Add an item here!"
+        android:paddingLeft="5dp"
+        android:textSize="20sp" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvItems"
         android:layout_width="match_parent"
-        android:layout_height="543dp"
+        android:layout_height="680dp"
         android:layout_above="@+id/etItem"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="0dp"
-        android:layout_marginBottom="0dp" />
+        android:layout_marginStart="-11dp"
+        android:layout_marginTop="-8dp"
+        android:layout_marginBottom="0dp"
+        android:background="@color/background"
+        android:padding="15dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:scrollbars="vertical" />
 
 </RelativeLayout>

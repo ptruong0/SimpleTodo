@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="15dp"
     tools:context=".EditActivity">
 
     <EditText
@@ -16,7 +20,13 @@
         android:layout_marginStart="0dp"
         android:layout_marginTop="0dp"
         android:ems="10"
-        android:hint="Update the item" />
+        android:fontFamily="sans-serif-condensed-light"
+        android:hint="Update the item"
+        android:paddingLeft="5dp"
+        android:paddingTop="10dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="10dp"
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/btnSave"
@@ -26,5 +36,10 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="0dp"
         android:layout_marginEnd="0dp"
-        android:text="Save" />
+        android:background="@color/btnColor"
+        android:elevation="5dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Save"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
 </RelativeLayout>
