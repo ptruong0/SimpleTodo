@@ -4,7 +4,7 @@
 
 Submitted by: **Philip Truong**
 
-Time spent: **4** hours spent in total
+Time spent: **6** hours spent in total
 
 ## User Stories
 
@@ -21,12 +21,13 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 * [ ] List anything else that you can get done to improve the app functionality!
+* [x] Add some styling to the app: colors, fonts, padding, text size
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='todo_walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='simple_todo_walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -41,7 +42,7 @@ not fully comprehend all of them.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2020 Philip Truong
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
