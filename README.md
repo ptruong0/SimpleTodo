@@ -26,13 +26,18 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='todo_walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
 Describe any challenges encountered while building the app.
+
+The video tutorials were sometimes hard to follow, as the instructor could have explained some parts, such as 
+Intents, Layout Inflater, and onActivityResult, more clearly. There are so many new object types that I could
+not fully comprehend all of them. 
+(Update: I read the CodePath Guides afterwards and those cleared some concepts up!)
 
 ## License
 
